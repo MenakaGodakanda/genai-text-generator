@@ -9,33 +9,27 @@ This project demonstrates the use of Generative AI to build a text generator usi
 
 ## Installation
 
-1. Clone the repository:
+### 1. Clone the repository:
 ```
-git clone https://github.com/yourusername/genai-text-generator.git
+git clone https://github.com/MenakaGodakanda/genai-text-generator.git
 cd genai-text-generator
 ```
 
-2. Set up the virtual environment:
+### 2. Set up the virtual environment:
 ```
 sudo apt install python3-venv -y
 python3 -m venv genai_project
 source genai_project/bin/activate
 ```
+![Screenshot 2025-01-12 163700](https://github.com/user-attachments/assets/b8e62d8d-2ef7-4b5d-b7cb-fe0fd28906c7)
 
-3. Install Dependencies:
+### 3. Install Dependencies:
 - Install Required Libraries:
 ```
 pip install transformers torch
 ```
 
-- Create `requirements.txt`:
-```
-transformers==4.x.x
-torch==2.x.x
-```
-- Replace `4.x.x` and `2.x.x` with the installed versions from the `pip freeze` command.
-
-4. Run the script:
+### 4. Run the script:
 ```
 python main.py
 ```
@@ -50,6 +44,7 @@ python main.py
 Once upon a time, there was a magical kingdom
 ```
 - Output:
+![Screenshot 2025-01-12 163513](https://github.com/user-attachments/assets/16c79a34-6dac-4afb-b4dd-1a2bee90f16e)
 
 ### Example 2
 - Input:
@@ -57,13 +52,14 @@ Once upon a time, there was a magical kingdom
 Once upon a time in a distant galaxy,
 ```
 - Output:
+![Screenshot 2025-01-12 163623](https://github.com/user-attachments/assets/d3c69c9b-ff25-4c21-a86d-ecd5eb39b9ee)
 
 
 ### Saved user inputs and outputs to a log file:
 - Output of `generated-texts.txt`:
+![Screenshot 2025-01-12 163634](https://github.com/user-attachments/assets/6cf90153-b177-4951-8c60-37370ec2e61f)
 
 ## File Structure
-- Organize your project directory like this:
 ```
 genai-text-generator/
 │

@@ -2,6 +2,28 @@
 
 This project demonstrates the use of Generative AI to build a text generator using Hugging Face's `transformers` library. The model used is OpenAI's GPT-2, a popular pre-trained language model.
 
+## Overview
+<img width="1086" alt="Screenshot 2025-01-30 at 6 54 21 pm" src="https://github.com/user-attachments/assets/0469a7f2-b967-453f-ae2f-4b80a34be2f1" />
+
+### Explanation:
+#### 1. User Input
+- The user enters a text prompt via the terminal.
+
+#### 2. Model & Tokenizer Initialization
+- The script loads the GPT-2 model and tokenizer.
+- Sets `pad_token = eos_token` to prevent padding issues.
+
+#### 3. Preprocessing
+- Tokenizes the input.
+- Applies padding and truncation.
+
+#### 4. Text Generation
+- Generates text using `max_length`, `temperature`, `top_k`, and `do_sample=True`.
+
+#### 5. Output Handling
+- Displays generated text in the terminal.
+- Saves the input and output to `generated_texts.txt`.
+
 ## Features
 - Accepts text prompts from the user
 - Generates coherent text completions
